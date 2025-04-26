@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Estilos básicos para o site */
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte do site */
+            margin: 0; /* Remove a margem padrão */
+            padding: 0; /* Remove o padding padrão */
+            background-color: #f0f0f0; /* Cor de fundo da página */
+        }
+
+        header {
+            background-color: #2e2e2e; /* Cor de fundo do cabeçalho */
+            color: white; /* Cor do texto */
+            text-align: center; /* Centraliza o texto */
+            padding: 20px 0; /* Espaçamento no cabeçalho */
+        }
+
+    
+
+        section {
+            padding: 20px; /* Espaçamento interno das seções */
+            margin: 20px; /* Espaçamento externo das seções */
+            background-color: white; /* Cor de fundo das seções */
+            border-radius: 8px; /* Borda arredondada */
+        }
+
+        section h2 {
+            color: #2e2e2e; /* Cor do título das seções */
+        }
+
+        #carreira p, #sobre p {
+            font-size: 1.2em; /* Tamanho da fonte */
+        }
+
+        #galeria img {
+            width: 100%; /* Imagem ocupa 100% da largura disponível */
+            max-width: 400px; /* Imagem não ultrapassa 400px de largura */
+            margin: 10px; /* Espaçamento entre as imagens */
+            border-radius: 8px; /* Borda arredondada nas imagens */
+        }
+
+        footer {
+            background-color: #2e2e2e; /* Cor de fundo do rodapé */
+            color: white; /* Cor do texto */
+            text-align: center; /* Centraliza o texto */
+            padding: 10px; /* Espaçamento interno do rodapé */
+            position: fixed; /* Fixa o rodapé na parte inferior da tela */
+            width: 100%; /* Faz o rodapé ocupar toda a largura da tela */
+            bottom: 0; /* Fixa o rodapé na parte inferior */
+        }
+         /* Menu (inicialmente oculto) */
+         .menu {
+            display: none; /* Oculta o menu inicialmente */
+            position: absolute;
+            top: 80px; /* Coloca o menu logo abaixo da logo */
+            left: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .menu a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .menu a:hover {
+            background-color: #444;
+        }
+          /* Logo Redonda */
+          header .logo {
+            position: absolute;
+            left: 20px; /* Coloca a logo à esquerda */
+            border-radius: 50%; /* Torna a logo redonda */
+            overflow: hidden; /* Garante que a imagem se ajuste ao formato redondo */
+            width: 60px; /* Define o tamanho da logo */
+            height: 60px; /* Define o tamanho da logo */
+            cursor: pointer; /* Muda o cursor para indicar que é clicável */
+        }
+
+        header .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Faz a imagem se ajustar ao contorno circular */
+        }
+
+        /* Estilo do título */
+        header h1 {
+            font-size: 36px;
+            text-align: center;
+            font-weight: bold;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+      <!-- Cabeçalho -->
+      <header>
+        <div class="logo" id="logo" onclick="toggleMenu()">
+            <img src="Logo.jpeg" alt="Logo SportTop">
+        </div>
+        <h1>SportTop</h1>
+        <!-- Menu -->
+        <div class="menu" id="menu">
+            <a href="Home.html">Home</a>
+            <a href="Home2.html">Produtos</a>
+        </div>
+    </header>
+      <!-- Seção 'Sobre' -->
+      <section id="sobre">
+        <h2>Sobre Jungkook</h2>
+        <p>Jeon Jungkook, conhecido apenas como Jungkook, é o membro mais jovem do grupo BTS, mas sua habilidade musical e presença de palco são excepcionais. Ele é conhecido por sua versatilidade e talento como vocalista, dançarino e compositor.</p>
+    </section>
+
+    <!-- Seção 'Carreira' -->
+    <section id="carreira">
+        <h2>Carreira</h2>
+        <p>Jungkook começou sua carreira como parte do BTS em 2013 e rapidamente se destacou como vocalista principal e dançarino do grupo. Ele também é conhecido por sua habilidade de compor e produzir músicas.</p>
+    </section>
+
+    <!-- Seção 'Galeria' -->
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <!-- Imagens de Jungkook -->
+        <img src="e:\images 2.jpg" alt="Jungkook no palco">
+        <img src="e:\images 1.jpg" alt="Jungkook sorrindo">
+    </section>
+
+    <!-- Seção 'Contato' -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através do e-mail: <a href="mailto:contato@bts.com">contato@bts.com</a></p> <!-- Link de e-mail -->
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 FanSite Jungkook - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

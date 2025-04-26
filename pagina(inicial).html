@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportTop</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+ /* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o corpo da página */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que a altura mínima será 100% da tela */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Seção de destaque */
+.destaque {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.destaque h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.destaque-produto {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destaque-produto img {
+    width: 100%;
+    height: auto;
+}
+
+.destaque-produto h3 {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.destaque-produto p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.destaque-produto a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.destaque-produto a:hover {
+    background-color: #555;
+}
+
+/* Seção de produtos */
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    flex-grow: 1; /* Faz o conteúdo de produtos crescer e ocupar o espaço disponível */
+}
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.produto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+}
+
+.produto a:hover {
+    background-color: #555;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    /* Isso garante que o rodapé ficará no fundo */
+}
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>SportTop</h1>
+    </header>
+
+    <!-- Destaque -->
+    <section class="destaque">
+  <h1>Produtos </h1>
+
+    </section>
+
+    <!-- Produtos -->
+    <section class="produtos">
+        <div class="produto">
+            <img src="joelheira_kanxa_futsal_373_1_20201213213549-removebg-preview.png" alt="Produto 1">
+            <h3>Joelheira Kanxa</h3>
+            <a href="https://www.magazineluiza.com.br/joelheira-esportiva-volei-futsal-skate-handball-ante-impacto-ajustavel-unissex-pisste/p/jdgj6jg0ah/es/jlps/?utm_source=google&utm_medium=cpc&utm_campaign=google_eco_apl_pro_app_none_none_none_none-geral-catalogoapp&utm_term=76792&utm_content=catalogoapp_con_amp_catalogogoogle_cat_tod_none&partner_id=76792&seller_id=dgplace&srsltid=AfmBOoodExrhHEmiRyWLK_XNo0A19epQfcjtDdDOkD5g7jCiMRirzVRQNYo">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="tenisvolei-removebg-preview.png" alt="Produto 2">
+            <h3>Tênis de Vôlei</h3>
+            <a href="https://pasaler.com/products/tenis-de-volei-aesthetic-pierre-respiravel-e-antiderrapante?currency=BRL&variant=43857286725811&utm_source=google&utm_medium=cpc&utm_campaign=Google%20Shopping&stkn=112749bb28e4">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="bolasal-removebg-preview (1).png" alt="Produto 3">
+            <h3>Bola de Futsal</h3>
+            <a href="https://www.amazon.com.br/Bola-Futsal-Penalty-500-Xxiii/dp/B0CCG7139R/ref=asc_df_B0CCG7139R/?tag=googleshopp00-20&linkCode=df0&hvadid=709857070005&hvpos=&hvnetw=g&hvrand=4623326290025507395&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9220945&hvtargid=pla-2247999279111&mcid=9efdef2b952d3f79a925eb2bbf00965a&language=pt_BR&gad_source=1&th=1">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="bola-de-volei-mikasa-juvenil-vs220w-removebg-preview.jpg" alt="Produto 4">
+            <h3>Bola de Vôlei Mikasa Juvenil</h3>
+            <a href="https://www.amazon.com.br/BOLA-VOLEIBOL-JUVENIL-VS220W-Y-BL-MIKASA/dp/B07W6CM7V1/ref=asc_df_B07W6CM7V1/?tag=googleshopp00-20&linkCode=df0&hvadid=709857070032&hvpos=&hvnetw=g&hvrand=16054257778064776821&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9220945&hvtargid=pla-1740435940277&psc=1&mcid=20ac1df2db0f332199ac03647aa2968f&tag=googleshopp00-20&linkCode=df0&hvadid=709857070032&hvpos=&hvnetw=g&hvrand=16054257778064776821&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9220945&hvtargid=pla-1740435940277&psc=1&language=pt_BR&gad_source=1">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="futecopa1-removebg-preview.png" alt="Produto 5">
+            <h3>Bola de Futebol</h3>
+            <a href="https://www.adidas.com.br/bola-copa-do-mundo-al-rihla-league-society/HG5649.html">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="Camisa de Time.jpg" alt="Produto 6">
+            <h3>Camisa de Time</h3>
+            <a href="https://www.modape.com.br/camisa-adidas-iu5011-real-madrid-i/branco-1?variation=19966480&gad_source=1&gclid=EAIaIQobChMI1Kfzv9WbjAMVdSVECB0uHBCGEAQYASABEgJEzvD_BwE">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="milan.jpg" alt="Produto 6">
+            <h3>Camisa de Time</h3>
+            <a href="https://www.footlet.com.br/produtos/camisa-milan-jogador-2024-2025-listrada-uniforme-1-puma-original/?variant=1148817789&pf=mc&gad_source=1&gclid=EAIaIQobChMItvWZh9abjAMVbR9ECB2Nwyd_EAQYASABEgJaFvD_BwE">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="cori.jpg" alt="Produto 6">
+            <h3>Camisa de Time</h3>
+            <a href="https://futbaheastore.com.br/produtos/camisa-corinthians-blackout-torcedor-2024-25-masculino-preta/">Comprar</a>
+        </div>
+        
+        <div class="produto">
+            <img src="negocio.jpg" alt="Produto 1">
+            <h3>Chuteira Umbro</h3>
+            <a href="https://www.americanas.com.br/produto/32644089/chuteira-umbro-guardian-campo-roxa">Comprar</a>
+        </div>
+        
+        <a href="">Saiba mais</a>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Loja de Esportes. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
